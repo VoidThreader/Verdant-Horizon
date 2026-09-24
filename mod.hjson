@@ -1,20 +1,21 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Verdant Horizon"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "verdant"
 
 #your name
-author: "You"
+author: "VoidThreader"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "verdant.VerdantHorizonMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "A Java Mindustry mod that aims to expand the base game."
+subtitle: "Welcome to Verdania."
 
 #the mod version
-version: 1.0.0
+version: 0.0.1
 
 #the minimum game build required to run this mod
 minGameVersion: 160.3
