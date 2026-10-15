@@ -1,10 +1,7 @@
 package verdant;
 
-import arc.*;
 import arc.util.*;
-import mindustry.game.EventType.*;
 import mindustry.mod.*;
-import mindustry.ui.dialogs.*;
 import verdant.content.*;
 
 public class VerdantHorizonMod extends Mod{
@@ -15,6 +12,7 @@ public class VerdantHorizonMod extends Mod{
     @Override
     public void loadContent(){
         VerdantBlocks.load();
+        VerdantPlanets.load();
         Log.info("Loaded Verdant Horizon.");
     }
 
